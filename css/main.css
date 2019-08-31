@@ -1,0 +1,258 @@
+
+body{
+}
+
+p , h3 , h1,h2 ,li, button {
+	font-family: 'Katibeh', cursive;
+}
+
+/* nav bar */
+.bg-auto{
+    background-color: none;
+    
+}
+
+a:hover{color: inherit;}
+
+@media (max-width: 974px) {
+  
+    .bg-auto {
+      background: rgba(3, 3, 3, 0.7);
+  
+    }
+  }
+  
+.navbar-expand-lg .navbar-nav .nav-link {
+	font-family: 'Katibeh', cursive;
+padding-right: 2rem;
+color: #ddd;
+font-size: 24px;
+}
+
+.navbar-nav { margin-right: 93px;}
+
+.navbar-brand {
+    background: #060606;
+    padding: 15px;
+    border-radius: 69px;
+}
+.navbar-brand img {
+    border-radius: 46px; 
+}
+/*Section Main*/
+.main-img {
+    background-image: url("../img/coffee-cup-2317201_1280.jpg");
+    background-attachment:fixed;
+    background-position: center; 
+
+    -webkit-background-size:cover;  
+	-moz-background-size:cover;  
+	-o-background-size:cover;  
+    background-size:cover;  
+    height: 700px;
+   
+      
+}
+
+.main {
+    margin-top: 200px;
+    padding-top: 40px;
+    border: 1px solid #fff;
+    width: 300px;
+    height: 300px;
+    margin-left: 600px;
+  
+}
+.main-img .cover {
+    
+    background: #00000069;
+    height: 100%;
+    width: 100%;
+     
+    }
+
+.main p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    color:rgb(250, 246, 246);
+
+}
+
+
+/* Section The New */
+.the-new img { max-width: 100%; border-radius: 20px;}
+.the-new{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.cart {
+    border-right: solid 2px #000;
+    border-left: solid 2px #000;
+
+    border-radius: 20px;
+margin-bottom: 20px;
+margin-top: 30px;
+}
+.cart h2 
+{
+    font-size: 70px;
+    font-weight: 1100px;
+}
+
+.cart h3,p {
+    padding-top: 20px;
+    color: #666;
+    font-size: 30px;
+}
+.cart .btn-light {
+    font-size: 30px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/*Section menu*/
+.menu-div { 
+   
+   background-color: #ddd;
+    min-height: 300px;
+    margin-top: 40px;
+}
+.menu-div h2 { 
+    font-size: 45px;
+    padding-top: 20px;
+padding-bottom: 35px;}
+
+/*.menu .menu-div{
+	background-color: rgba(3,3,3,0.5);
+	color: #b6b5b5; 
+	min-height: 300px;
+	padding-top: 40px;
+	padding-bottom: 70px;
+}*/
+
+/* Section carousel */
+.bd-example{ margin-top: 60px;margin-bottom: 40px;}
+.carousel-item img {
+	margin:10px;
+}
+.block4-wrap {
+    display:flex;
+  
+}
+.block4  {
+     flex:1 0 25% ;
+background:#fff;
+color:#fff;
+}
+    .carousel-indicators li {
+        margin-top: 20px;
+}
+
+.sweet h3 {
+    margin-top: 20px;
+
+}
+.sweet h3 {
+margin-top: 20px;
+}
+.sweet hr {
+    border-top: 2px solid #000;
+    margin-bottom: 35px;
+
+}
+
+.sweet img {
+    border-radius: 30px;
+}
+/* »ثذفهخر ذخببثث */
+
+.coffee {
+    background-image: url("../img/pexels-photo-129207.jpeg");
+    background-attachment: fixed; 
+    background-position: center; 
+    padding-top: 40px;
+    height: 600px;
+    margin-bottom: 30px;
+}
+.coffee h2 {
+    color: #ddd; 
+    font-size: 40px;
+}
+.hot div {
+    transition: all linear 0.5s;
+    background-color:#666;
+    color: #ddd;
+    height: 110px;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+  
+  .ng-hide {
+  Display:hidden;
+    height: 0;
+    width: 0;
+    background-color: transparent;
+    top:-200px;
+    left: 200px;
+  }
+
+  .hot i {
+      color:#ddd;
+      margin-bottom: 30px;
+      margin-top: 70px;
+  }
+  .hot .bttn {
+    transition: all linear 0.5s;
+
+      padding-top: 15px;
+      padding: 15px 18px 15px 18px;
+      background: none;
+      border: solid 1px #ddd;
+      border-radius: 20px;
+      font-size: 35px;
+      color: #ddd;
+  }
+  .hot .bttn:hover {
+      background: #666;
+  }
+  .hot .li { font-size: 25px;}
+
+  .uul ul {
+      display: inline-block;
+      padding-left: 33px;
+  }
+  ul.list-unstyled { padding-right: 29px;}
+  .fasl hr {
+      border-bottom:  solid #666 2px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+
+  }
+
+  /*Footer */
+
+  .footer {
+      background:#000;
+      color: #ddd;
+      padding-top: 30px;
+      padding-bottom: 10px;
+
+  }
+  .footer h5 {
+      padding-top: 10px;
+      font-size: 15px;
+      letter-spacing: 5px;
+  }
+  .info {
+      background: #666;
+      padding-top: 30px;
+      margin-top: -30px;
+  }
+
