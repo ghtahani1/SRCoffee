@@ -10,7 +10,7 @@ page for sr coffee
   
    <h2> screenshot 2 .. </h2> 
 
-  ![screen2](/SRCoffee/blob/master/img/Screen2.png)
+  ![screen2](/img/Screen2.png)
 
 
   
