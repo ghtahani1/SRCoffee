@@ -6,7 +6,7 @@ page for sr coffee
   
   <h2> screenshoot 1 .. </h2> 
   
-  ![screen](/blob/master/img/Screen3.png)
+  ![screen](/img/Screen3.png)
   
    <h2> screenshot 2 .. </h2> 
 
